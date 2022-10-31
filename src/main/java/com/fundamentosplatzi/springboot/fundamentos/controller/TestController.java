@@ -12,6 +12,6 @@ public class TestController {
     @RequestMapping
     @ResponseBody
     public ResponseEntity<String> function(){
-        return new ResponseEntity<>("Hello from controller, future de shema of network", HttpStatus.OK);
+        return new ResponseEntity<>("Hello from controller, future de shema of network con otro cambio", HttpStatus.OK);
     }
 }

@@ -4,6 +4,6 @@ public class MyBeanImplement implements MyBean {
 
     @Override
     public void print() {
-        System.out.println("Hello of MyBean");
+        System.out.println("Hello of MyBean propio");
     }
 }

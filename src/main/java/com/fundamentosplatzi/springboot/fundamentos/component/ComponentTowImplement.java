@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class ComponentTowImplement implements ComponentDependency{
     @Override
     public void saludar() {
-        System.out.println("Hello wordl from pc");
+        System.out.println("Hello world to from pc");
     }
 }
